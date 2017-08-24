@@ -1,0 +1,42 @@
+html, body {
+    margin:0;
+    padding: 0;
+
+}
+img {
+    width: 20em;
+    float: left;
+    margin-right: 20px;
+    box-shadow: 5px 5px 15px #BF66AB;
+}
+article {
+    max-width: 1200px;
+    margin: 150px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: #32c3fc;
+    background: -moz-linear-gradient(-45deg, #32c3fc 0%, #378ed6 44%, #448dc9 48%, #a93cf2 100%);
+    background: -webkit-linear-gradient(-45deg, #32c3fc 0%,#378ed6 44%,#448dc9 48%,#a93cf2 100%);
+    background: linear-gradient(135deg, #32c3fc 0%,#378ed6 44%,#448dc9 48%,#a93cf2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32c3fc', endColorstr='#a93cf2',GradientType=1 );
+}
+p {
+    text-indent: 1.5em;
+    text-align: justify;
+}
+span {
+    background-color: #FFFF00;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover {
+    text-decoration: underline;
+}

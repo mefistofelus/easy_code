@@ -1,0 +1,168 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	color: #111;
+	font: 300 12px/1 "Open Sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+}
+ul, ol{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+img{
+	min-width: 100%;
+}
+
+/*DEFAULT COMPONENT STYLE START*/
+.default-section{
+	padding: 140px 0;
+}
+.title{
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	margin-bottom: 75px;
+}
+.title.color-white{
+	color: #ffffff;
+}
+.title.text-light{
+	font-weight: 300;
+}
+.box{
+	height: 50px;
+}
+blockquote{
+	padding: 0;
+	margin: 0;
+	border: none;
+	font-size: 24px;
+	color: #777;
+	line-height: 1.6em;
+}
+blockquote span{
+	font-size: 11px;
+	font-weight: 400;
+}
+.text-section{
+	font-size: 15px;
+	line-height: 1.73;
+}
+/*DEFAULT COMPONENT STYLE END*/
+/*HEADER STYLE START*/
+
+
+
+/*HEADER STYLE END*/
+/*MAIN STYLE START*/
+.our-team{
+	margin-top: 100px;
+}
+.team-item-img{
+	position: relative;
+}
+.team-item-info{
+	padding: 25px 5px 0;
+	font-family: "Dosis", sans-serif;
+	color: #777;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+}
+.team-item-info span{
+	display: block;
+}
+.team-item-info span.team-item-name{
+	font-size: 15px;
+	margin-bottom: 12px;
+}
+.team-item-info span.team-item-role{
+	font-size: 12px;
+}
+.team-item-skills{
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: lightgray;
+	transition: opacity .3s linear;
+}
+.team-item-img:hover .team-item-skills{
+	opacity: 1;
+}
+
+/*SERVICES START*/
+.border-top{
+	border-top: 1px solid #ececec;
+
+}
+.nav-tabs>li{
+	width: 20%;
+	text-align: center;
+	opacity: .8;
+}
+.nav-tabs>li>a,
+.nav-tabs>li>a.active,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus{
+	padding: 0;
+	margin: 0;
+	border: none;
+	opacity: .8;
+	background-color: transparent;
+	color: #111;
+}
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a{
+	opacity: 1;
+}
+.nav-tabs li .tablist-title{
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .4em;
+	text-transform: lowercase;
+	font-family: "Dosis", sans-serif;
+	font-variant:small-caps;
+	margin-top: 35px;
+}
+.nav-tabs li .icon{
+	font-size: 48px;
+}
+/*SERVICES END*/
+
+/*MAIN STYLE END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
